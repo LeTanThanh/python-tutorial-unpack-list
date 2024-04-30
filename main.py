@@ -1,2 +1,15 @@
 if __name__ == "__main__":
-  print("How to Unpack a List in Python")
+  # Introduction to the list unpacking
+
+  colors = ["red", "green", "blue"]
+
+  red = colors[0]
+  green = colors[1]
+  blue = colors[2]
+  print(red, green, blue)
+
+  red, green, blue = colors
+  print(red, green, blue)
+
+  # red, green = colors
+  # ValueError
