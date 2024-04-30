@@ -13,3 +13,17 @@ if __name__ == "__main__":
 
   # red, green = colors
   # ValueError
+
+  # Unpacking and packing
+
+  colors = ["red", "green", "blue"]
+  red, green, *other = colors
+  print(red)
+  print(green)
+  print(other)
+
+  colors = ["cyan", "magenta", "yellow", "black"]
+  cyan, magenta, *other = colors
+  print(cyan)
+  print(magenta)
+  print(other)
